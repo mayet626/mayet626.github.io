@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg68"
+   width="140"
+   height="47"
+   viewBox="0 0 140 47"
+   sodipodi:docname="logo-mobile.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata74">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs72" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview70"
+     showgrid="false"
+     inkscape:zoom="0.95964492"
+     inkscape:cx="17.229985"
+     inkscape:cy="58.301424"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg68" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.20063877px;line-height:1.25;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33001605"
+     x="6.2510643"
+     y="17.763102"
+     id="text11"><tspan
+       sodipodi:role="line"
+       id="tspan9"
+       x="6.2510643"
+       y="17.763102"
+       style="stroke-width:0.33001605">Proger#Team</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5605135px;line-height:1.25;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33001605"
+     x="8.393075"
+     y="29.850239"
+     id="text15"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       x="8.393075"
+       y="39.193817"
+       style="stroke-width:0.33001605" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5605135px;line-height:1.25;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33001605"
+     x="10.994106"
+     y="33.981285"
+     id="text19"><tspan
+       sodipodi:role="line"
+       id="tspan17"
+       x="10.994106"
+       y="43.324863"
+       style="stroke-width:0.33001605" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5605135px;line-height:1.25;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33001605"
+     x="7.7810717"
+     y="34.287281"
+     id="text23"><tspan
+       sodipodi:role="line"
+       id="tspan21"
+       x="7.7810717"
+       y="34.287281"
+       style="stroke-width:0.33001605">Mobile Development</tspan></text>
+</svg>

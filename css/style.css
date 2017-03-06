@@ -1,0 +1,56 @@
+* { margin: 0; padding: 0; outline: 0; }
+
+body, html { height: 100%; }
+
+body {
+	font-size: 12px;
+	line-height: 22px;
+	font-family: arial, sans-serif;
+	color: #828282;
+	background: url(images/body.png) repeat 0 0;
+	min-width: 980px;
+}
+
+/*font-family: 'Ubuntu', sans-serif;*/
+
+a { color: #067aa7; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+a.view { background: url(images/bullet.png) no-repeat 0 10px; padding-left: 8px; font-size: 10px; float: right;  }
+
+article, aside, details, footer, header, menu, nav, section { display: block; }
+input, textarea, select { font-size: 12px; font-family: arial, sans-serif; }
+textarea { overflow: auto; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+
+.shell  { width: 980px; margin: 0 auto; }
+
+
+html, body { height: 100%; }
+#wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -286px; }
+
+/* #Media Queries
+================================================== */
+
+/* ipad portrait */
+@media only screen and ( min-width: 768px) and ( max-width: 980px ) {
+	body { min-width: 768px; }
+	.shell { max-width: 768px; }
+	
+	.container { padding: 0 20px; width: 728px; }
+}
+
+	
+@media only screen and ( max-width: 767px) { 
+	body { min-width: 320px;}
+	.shell { max-width: 100%; }
+	.main { padding-top: 220px !important; margin-top: 0; }
+	a.view { background: url(images/bullet.png) no-repeat 0 8px; padding-left: 8px; font-size: 10px; float: right;  }
+	
+	.container { padding: 20px 10px 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+}
+
