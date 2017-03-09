@@ -31,8 +31,14 @@
 	</script>
 
 	<script type="text/javascript">
-		function setContent(c){
+		var obj = null;
+		function setContent(c, newObj){
 			$('#content').load(c);
+			if(obj != null){
+				obj.removeClass("active");
+			}
+			newObj.addClass("active");
+			obj = newObj;
 		}
 	</script>
 
@@ -43,10 +49,10 @@
 		<!-- top-nav -->
 		<nav class="top-nav">
 			<div class="shell">
-				<a href="#" class="nav-btn" onclick="setContent('content.html')">HOMEPAGE<span></span></a>
+				<a href="#" class="nav-btn">HOMEPAGE<span></span></a>
 				<span class="top-nav-shadow"></span>
 				<ul>
-					<li class="active"><span><a href="#">home</a></span></li>
+					<li class="active"><span><a href="#" onclick="setContent('content.html', this.parentNode.parentNode)">home</a></span></li>
 					<li><span><a href="#" onclick="setContent('services.html')">services</a></span></li>
 					<li><span><a href="#">projects</a></span></li>
 					<li><span><a href="#">solutions</a></span></li>
