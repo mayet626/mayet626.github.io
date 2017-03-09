@@ -33,13 +33,11 @@
 	<script type="text/javascript">
 		function setContent(c, newObj){
 			$('#content').load(c);
+			
+			$("#top-nav ul li a").removeClass('active');
+		  	$(this).addClass('active');
 		}
 
-		$("#top-nav ul li a").click(function(e) {
-		  e.preventDefault();
-		  $("#top-nav ul li a").removeClass('active');
-		  $(this).addClass('active');
-		})
 	</script>
 
 </head>
