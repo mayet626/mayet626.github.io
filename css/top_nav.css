@@ -35,10 +35,10 @@
 .top-nav ul li.active a {
     color: #FFF;
     text-decoration: none;
-    background: #CCC;
+    background: #AAA;
 }
 .top-nav ul li.active a {
-    background: #CCC url(images/active-nav-border.png) no-repeat right 0;
+    background: #AAA url(images/active-nav-border.png) no-repeat right 0;
 }
 .top-nav ul li.active span {
     background: url(images/active-nav-border.png) no-repeat 0 0;
@@ -64,7 +64,7 @@
         font-size: 14px;
     }
     .top-nav ul li a {
-        color: #239cc5;
+        color: #FFF;
         float: left;
         padding: 0 24px;
         text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
