@@ -2,7 +2,7 @@
     position: relative;
 }
 .top-nav {
-    background: #b6dde7;/*todo: black*/
+    background: #000;/*todo: black*/
     height: 59px;
 }
 .top-nav ul {
@@ -33,12 +33,12 @@
 }
 .top-nav ul li a:hover,
 .top-nav ul li.active a {
-    color: #00719d;
+    color: #FFF;
     text-decoration: none;
-    background: #c8e6ed;
+    background: #CCC;
 }
 .top-nav ul li.active a {
-    background: #c8e6ed url(images/active-nav-border.png) no-repeat right 0;
+    background: #CCC url(images/active-nav-border.png) no-repeat right 0;
 }
 .top-nav ul li.active span {
     background: url(images/active-nav-border.png) no-repeat 0 0;
