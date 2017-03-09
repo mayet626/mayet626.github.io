@@ -13,9 +13,9 @@ $(function() {
 
 
 	$('.top-nav a.nav-btn').click(function(){
-		$(this).closest('.shell').find('ul').stop(true,true).slideToggle()
-		console.log("sdfsd")
-		$(this).find('span').toggleClass('active')
+		$(this).closest('.shell').find('ul').stop(true,true).slideToggle();
+		console.log("sdfsd");
+		$(this).find('span').toggleClass('active');
 		return false;
 	})
 });
