@@ -64,7 +64,7 @@
         font-size: 14px;
     }
     .top-nav ul li a {
-        color: #CCC;
+        /*color: #CCC;*/
         float: left;
         padding: 0 24px;
         text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
