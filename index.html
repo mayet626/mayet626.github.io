@@ -49,7 +49,7 @@
 				<a href="#" class="nav-btn">NAVIGATION<span></span></a>
 				<span class="top-nav-shadow"></span>
 				<ul>
-					<li><span><a href="#content" onclick="setContent('home.html')">home</a></span></li>
+					<li><span><a href="#content" class="active" onclick="setContent('home.html')">home</a></span></li>
 					<li><span><a href="#content" onclick="setContent('services.html')">поддержка</a></span></li>
 					<li><span><a href="#content" onclick="setContent('projects.html')">Проекты</a></span></li>
 					<!--li><span><a href="#content" onclick="setContent('solutions.html')">solutions</a></span></li-->
@@ -59,6 +59,13 @@
 				</ul>
 			</div>
 		</nav>
+		<script type="text/javascript"> 
+			$("#menu ul li").click(function(e) { 
+			e.preventDefault(); 
+			$("#menu ul li").removeClass('active'); 
+			$(this).addClass('active'); 
+			}) 
+		</script> 
 		<!-- end of top-nav -->
 			<!-- header -->
 			<header  id="header">
