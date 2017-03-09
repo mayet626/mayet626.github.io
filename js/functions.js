@@ -9,11 +9,7 @@ $(function() {
 		}
 	});
 
-	$('.main .cols .col:last, .footer-cols .col:last ').addClass('last');
-	$('.footer-nav ul li:first-child ').addClass('first');
-	$('.top-nav ul li:last-child').addClass('last');
-	$('.top-nav ul li:first-child').addClass('first');
-	$('.sidebar ul li:last-child').addClass('last');
+	
 
 
 	$('.top-nav a.nav-btn').click(function(){
