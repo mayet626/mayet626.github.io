@@ -16,8 +16,8 @@
 	<link rel="import" href="content.html">
 	<link rel="import" href="services.html">
 	
-	<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
-	<!--[if lt IE 9]>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--[if lt IE 9]>
 		<script src="js/modernizr.custom.js"></script>
 	<![endif]-->
 	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
@@ -34,7 +34,7 @@
 		function setContent(c){
 			$('#content').load(c);
 
-			$("#top-nav ul li").removeClass('active');
+			$("#top-nav ul li a").removeClass('active');
 		  	$(this).addClass('active');
 		}
 
@@ -51,7 +51,7 @@
 				<span class="top-nav-shadow"></span>
 				<ul>
 					<li class="active"><span><a href="#content" onclick="setContent('content.html')">home</a></span></li>
-					<li><span><a href="#" onclick="setContent('services.html')">services</a></span></li>
+					<li><span><a href="#content" onclick="setContent('services.html')">services</a></span></li>
 					<li><span><a href="#">projects</a></span></li>
 					<li><span><a href="#">solutions</a></span></li>
 					<li><span><a href="#">jobs</a></span></li>
