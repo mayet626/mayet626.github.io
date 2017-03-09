@@ -31,14 +31,8 @@
 	</script>
 
 	<script type="text/javascript">
-		var obj = null;
 		function setContent(c, newObj){
 			$('#content').load(c);
-			if(obj != null){
-				obj.removeClass("active");
-			}
-			newObj.addClass("active");
-			obj = newObj;
 		}
 
 		$("#top-nav ul li a").click(function(e) {
