@@ -93,9 +93,7 @@ body {
     margin: 0 auto -286px;
     background-color: #000;
 }
-/* #Media Queries
-================================================== */
-/* ipad portrait */
+
 
 @media only screen and ( min-width: 768px) and ( max-width: 980px) {
     body {
