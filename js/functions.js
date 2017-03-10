@@ -14,7 +14,7 @@ $(function() {
 
 	$('.top-nav a.nav-btn').click(function(){
 		$(this).closest('.shell').find('ul').stop(true,true).slideToggle();
-		console.log("sdfsd");
+		console.log("top-nav valid script");
 		$(this).find('span').toggleClass('active');
 		return false;
 	})
