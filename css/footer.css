@@ -1,6 +1,7 @@
 #footer,
 #footer-push {
     height: /*286px*/ 100px;
+    background-color: #FFF;
 }
 #footer span.shadow-bottom {
     background: url(images/main-shadow-bottom.png) repeat-x 0 0;
@@ -66,7 +67,8 @@
     color: #fff;
 }
 .footer-bottom {
-    background: #b3dce6;
+    /*background: #b3dce6;*/
+    background-color: #000;
     height: 14px;
     padding: 22px 0 18px 0;
 }
@@ -83,17 +85,20 @@
     float: left;
     padding: 0 10px;
     background: url(images/footer-nav-border.png) no-repeat 0 0;
+
 }
 .footer-nav ul li.first {
     background: transparent;
     padding-left: 0;
 }
 .footer-nav ul a {
-    color: #6b848a;
+    /*color: #6b848a;*/
+    color: #FFF;
 }
 .footer-bottom p.copy {
     float: right;
-    color: #6b848a;
+    /*color: #6b848a;*/
+    color: #FFF;
     line-height: 11px;
 }
 .footer-bottom p.copy span {
@@ -101,6 +106,7 @@
 }
 .footer-bottom p.copy a {
     text-decoration: underline;
+    color: yellow;
 }
 .footer-bottom p.copy a:hover {
     text-decoration: none;
