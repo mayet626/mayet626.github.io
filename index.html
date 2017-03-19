@@ -51,13 +51,13 @@
 				<span class="top-nav-shadow"></span>
 				<div id="menu">
 					<ul>
-						<li class="active"><span><a href="#content" onclick="setContent('home.html')">home</a></span></li>
-						<li><span><a href="#content" onclick="setContent('services.html')">поддержка</a></span></li>
-						<li><span><a href="#content" onclick="setContent('projects.html')">Проекты</a></span></li>
+						<li class="active"><span><a href="#content" id="home" onclick="setContent('home.html')">home</a></span></li>
+						<li><span><a href="#content" id="services" onclick="setContent('services.html')">поддержка</a></span></li>
+						<li><span><a href="#content" id="projects" onclick="setContent('projects.html')">Проекты</a></span></li>
 						<!--li><span><a href="#content" onclick="setContent('solutions.html')">solutions</a></span></li-->
-						<li><span><a href="#content" onclick="setContent('solutions.html')">присоединиться</a></span></li>
-						<li><span><a href="#content" onclick="setContent('services.html')">Price</a></span></li>
-						<li><span><a href="#content" onclick="setContent('services.html')">Контакты</a></span></li>
+						<li><span><a href="#content" id="join" onclick="setContent('solutions.html')">присоединиться</a></span></li>
+						<li><span><a href="#content" id="price" onclick="setContent('services.html')">Price</a></span></li>
+						<li><span><a href="#content" id="contacts" onclick="setContent('services.html')">Контакты</a></span></li>
 					</ul>
 				</div>
 			</div>
@@ -130,12 +130,12 @@
 			<div class="shell">
 				<nav class="footer-nav">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Поддержка</a></li>
-						<li><a href="#">Проекты</a></li>
-						<li><a href="#">Присоединиться</a></li>
-						<li><a href="#">Price</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="#" onclick="$('#home').click()">Home</a></li>
+						<li><a href="#" onclick="$('#services').click()">Поддержка</a></li>
+						<li><a href="#" onclick="$('#projects').click()">Проекты</a></li>
+						<li><a href="#" onclick="$('#join').click()">Присоединиться</a></li>
+						<li><a href="#" onclick="$('#price').click()">Price</a></li>
+						<li><a href="#" onclick="$('#contacts').click()">Контакты</a></li>
 					</ul>
 					<div class="cl">&nbsp;</div>
 				</nav>
