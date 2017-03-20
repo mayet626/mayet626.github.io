@@ -75,9 +75,6 @@
 .main .content img.alignleft {
     margin-right: 22px;
 }
-.main .content img.alignright {
-    margin-left: 22px;
-}
 .main .content .cnt {
     overflow: hidden;
     height: 100%;
@@ -165,9 +162,6 @@
 }
 .main .cols .col img.alignleft {
     margin-right: 7px;
-}
-.main .cols .col img.alignright {
-    margin-left: 7px;
 }
 .main .cols .col.last {
     width: 280px;
@@ -275,12 +269,6 @@
     }
     .main .content img.alignleft {
         margin-right: 8px;
-        float: none;
-        display: block;
-        margin: 0 auto 30px auto;
-    }
-    .main .content img.alignright {
-        margin-left: : 8px;
         float: none;
         display: block;
         margin: 0 auto 30px auto;
