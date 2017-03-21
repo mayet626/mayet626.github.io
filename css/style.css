@@ -82,6 +82,9 @@ textarea {
     margin: 0 auto;
 
 }
+.deamon-content{
+    height: auto;
+}
 html,
 body {
     height: 100%;
@@ -90,7 +93,7 @@ body {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -286px;
+    /*margin: 0 auto -286px;*/
     background-color: #000;
 }
 
@@ -104,7 +107,7 @@ body {
     }
     .container {
         padding: 0 20px;
-        width: 728px;
+        /*width: 728px;*/
     }
 }
 @media only screen and ( max-width: 767px) {
