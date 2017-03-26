@@ -14,9 +14,7 @@
     display: block;
 }
 #footer {
-   
     border-top: 1px solid #fff;
-    bottom: -250px;
     position: relative;
     height: /*285px*/ 100px;
 }
