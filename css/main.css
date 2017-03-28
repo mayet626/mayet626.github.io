@@ -2,6 +2,7 @@
     background: #FFF;
     padding: 66px 0 50px;
     position: relative !important;
+    overflow: hidden;
 }
 .main span.shadow-top {
     background: url(images/main-shadow.png) repeat-x 0 0;

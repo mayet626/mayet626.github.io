@@ -43,12 +43,12 @@
 
 		$(function(){
 			$('#deamon-content').load('home.html');
-			setSizeH();
+			
 		});
 
 		function setContent(c){
 			$('#deamon-content').load(c);
-			setSizeH();
+			
 		}
 	</script>
 
@@ -132,11 +132,14 @@
 		</header>
 			<!-- end of header -->
 			<!-- main ***************************************************************-->
-			<div id="deamon-content"></div>
+		<div id="deamon-content"></div>
+		<script type="text/javascript">
+			var heightContent = $('#shellid').offsetWidth;
+			var container=document.getElementById('#deamon-content');
+			container.style.height = heightContent + "px";
+			console.log(heightContent + "px");
+		</script>
 			<!-- end of main ********************************************************-->
-	
-	
-
 	<!-- footer -->
 	<div  id="footer">
 		<span class="shadow-bottom"></span>
