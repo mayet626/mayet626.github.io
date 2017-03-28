@@ -31,15 +31,29 @@
 
 
 	<script type="text/javascript">
+		var heightElem = $('#deamon-content').height();
+		function setSizeH() {
+			var heightContent = $('#deamon-content').offsetWidth;
+		
+			var container=document.getElementById('#main');
+
+			container.style.height = heightContent + "px";
+			console.log(heightContent + "px");
+		}
+
 		$(function(){
 			$('#deamon-content').load('home.html');
+			setSizeH();
 		});
+
+		function setContent(c){
+			$('#deamon-content').load(c);
+			setSizeH();
+		}
 	</script>
 
 	<script type="text/javascript">
-		function setContent(c){
-			$('#deamon-content').load(c);
-		}
+		
 
 	</script>
 
