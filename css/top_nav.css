@@ -26,6 +26,7 @@
     color: /*#239cc5*/ #FFF;
     float: left;
     padding: 0 34px;
+    min-width: 124px;
     /*text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;*/
 }
 .top-nav ul li span {
@@ -39,9 +40,11 @@
     color: /*#00719d*/ #EEE;
     text-decoration: none;
     background: /*#c8e6ed*/ #555;
+    min-width: 124px;
 }
 .top-nav ul li.active a {
     background: #333 /*#c8e6ed url(images/active-nav-border.png) no-repeat right 0*/;
+    min-width: 124px;
 }
 .top-nav ul li.active span {
     background: url(images/active-nav-border.png) no-repeat 0 0;
@@ -60,8 +63,15 @@
     display: none;
 }
 @media only screen and ( min-width: 768px) and ( max-width: 980px) {
+    .top-nav ul li a:hover,
+    .top-nav ul li.active a {
+        min-width: 100px;
+    }
     .top-nav span.top-nav-shadow {
         display: none;
+    }
+    .top-nav ul li.active a {
+        min-width: 100px;
     }
     .top-nav ul {
         font-size: 14px;
@@ -70,10 +80,12 @@
         color: #FFF /*#239cc5*/;
         float: left;
         padding: 0 24px;
+        min-width: 100px;
         /*text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;*/
     }
     .top-nav ul li.last a {
         padding-right: 34px;
+        min-width: 100px;
     }
 }
 @media only screen and ( max-width: 767px) {
